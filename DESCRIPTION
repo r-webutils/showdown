@@ -14,3 +14,5 @@ Imports:
     tools,
     knitr
 Roxygen: list(markdown = TRUE)
+URL: https://github.com/GregorDeCillia/showdown
+BugReports: https://github.com/GregorDeCillia/showdown/issues
