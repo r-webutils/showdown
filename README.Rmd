@@ -13,10 +13,22 @@ devtools::install_github("GregorDeCillia/showdown")
 
 ## Usage
 
+Use `show_file` to include the contents of a file. The syntx highlighting is
+chosen based on the file extension.
+
 ```{r}
 library(showdown)
 show_file("R/show_file.R")
-show_file("DESCRIPTION")
-show_file_github("statistikat/surveysd", "src/compute_linear.cpp")
 ```
 
+The parameter `lang` can be used to manually set the syntax highlighter.
+
+```{r}
+show_file("DESCRIPTION", language = "yaml")
+```
+
+To show the contanents of a file from GitHub, `show_file_github` can be used.
+
+```{r}
+show_file_github(repo = "statistikat/surveysd", file = "src/compute_linear.cpp")
+```

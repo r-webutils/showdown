@@ -4,12 +4,12 @@
 \alias{show_file}
 \title{show contents of a file with syntax highlighting}
 \usage{
-show_file(file, lang = tools::file_ext(file))
+show_file(file, language = tools::file_ext(file))
 }
 \arguments{
 \item{file}{a path to a file to show}
 
-\item{lang}{the language used for syntax higlighing}
+\item{language}{the language used for syntax higlighing}
 }
 \description{
 show contents of a file with syntax highlighting
