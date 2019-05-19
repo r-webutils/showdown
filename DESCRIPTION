@@ -1,0 +1,16 @@
+Package: showdown
+Type: Package
+Title: Show file contents in RMarkdown documents
+Version: 0.1.0
+Author: Gregor de Cillia
+Maintainer: Gregor de Cillia <de.cillia.gregor@gmail.com>
+Description: This package allows you to list file contents in RMarkdown
+    documents. Syntax highlighting is applied according to the file extension.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    tools,
+    knitr
+Roxygen: list(markdown = TRUE)

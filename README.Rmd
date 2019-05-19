@@ -1,0 +1,22 @@
+---
+title: "showdown"
+output: github_document
+---
+
+Show file contents in RMarkdown documents with syntax highlighting
+
+## Installation
+
+```{r, eval = FALSE}
+devtools::install_github("GregorDeCillia/showdown")
+```
+
+## Usage
+
+```{r}
+library(showdown)
+show_file("R/show_file.R")
+show_file("DESCRIPTION")
+show_file_github("statistikat/surveysd", "src/compute_linear.cpp")
+```
+
