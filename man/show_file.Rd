@@ -4,7 +4,7 @@
 \alias{show_file}
 \title{show contents of a file with syntax highlighting}
 \usage{
-show_file(file, language = tools::file_ext(file))
+show_file(file, language = file_ext(file))
 }
 \arguments{
 \item{file}{a path to a file to show}

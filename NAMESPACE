@@ -2,3 +2,4 @@
 
 export(show_file)
 export(show_file_github)
+importFrom(tools,file_ext)
