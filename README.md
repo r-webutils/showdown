@@ -6,7 +6,7 @@ Show file contents in RMarkdown documents with syntax highlighting
 ## Installation
 
 ``` r
-devtools::install_github("r-webutil/showdown")
+devtools::install_github("r-webutils/showdown")
 ```
 
 ## Usage
